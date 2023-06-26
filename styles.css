@@ -118,16 +118,15 @@
     white-space: 2px;
   }
   
-  .aside-2 {
+  .aside-2 { 
     
     height: 100%;
     order: 2;
   }
-  aside> div > p > img {
+  aside > div > p > img {
     height: 90%;
-    width: 90%;
-    margin-left: 5%;
-    margin: auto;
+    width: 95%;
+    margin-right: 15px;   
     padding: 10px;
   }
   aside > div{
