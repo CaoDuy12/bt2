@@ -36,6 +36,7 @@
     height: 30px;
     padding: 15px;
     flex: 0;
+    color: rgb(46, 123, 123);
   }
  header > h1{
   
@@ -52,7 +53,7 @@
   .banner-flex-2{
         text-align: center;
         background-color: rgb(29, 226, 226);
-        height: 100px;
+       
         padding: 40px;
         flex: 2;
 
@@ -68,10 +69,11 @@
     text-align: left;
     background: rgb(253, 253, 253);
     height: 400px;
-    flex: 3 0px; /* cho phần nội dung main ở giữa chiếm 3 phần không gian trống so với 2 phần aside bên cạnh */
+    flex: 2 0px; /* cho phần nội dung main ở giữa chiếm 3 phần không gian trống so với 2 phần aside bên cạnh */
     order: 2;
     font-size: 30px;
     margin: auto;
+    
   }
  
   
@@ -101,7 +103,7 @@
     font-size: 20px;
     margin: auto;
     width: 90%;  
-      
+      font-weight: 100;
     padding: 5px;
   }
   .aside-3 {
