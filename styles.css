@@ -1,0 +1,108 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+   }
+
+
+   html, body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+.wrapper {
+    display: flex;  /* kich hoat flex box */
+    flex-flow: column ;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+  }
+  
+  .wrapper > * {
+   
+    padding: 10px;
+    flex: 1 100%; /*cho tất cả phần tử bên trong có độ dài 100% và tỉ lệ chiếm không gian trống là như nhau*/
+  }
+  
+  .header-flex-2 {
+    background-color: aliceblue;
+    text-align: left;
+    font-size: 25px;
+    height: 30px;
+    padding: 15px;
+    flex: 0;
+  }
+  a{
+    float: right;
+  text-decoration: none;
+  font-size: 20px;
+  word-spacing: 50px;
+  margin-right: 50px;
+  }
+  .banner-flex-2{
+        text-align: center;
+        background-color: rgb(29, 226, 226);
+        height: 100px;
+        padding: 40px;
+        flex: 2;
+
+  }
+  .banner-flex-2 > img {
+    border-radius: 50%;
+  }
+   p{
+    line-height: 2.5;
+  }
+  
+  .aside {
+    text-align: left;
+    background: rgb(253, 253, 253);
+    height: 400px;
+    flex: 3 0px; /* cho phần nội dung main ở giữa chiếm 3 phần không gian trống so với 2 phần aside bên cạnh */
+    order: 2;
+    font-size: 30px;
+    margin: auto;
+  }
+ 
+  
+  
+  
+  .aside-1 {
+    
+    height: 100%;
+    width: 100%;
+    order: 1;
+  }
+  
+  .aside-2 {
+    
+    height: 100%;
+    order: 2;
+  }
+  aside> div > p > img {
+    height: 90%;
+    width: 90%;
+    margin-left: 5%;
+    margin: auto;
+    padding: 10px;
+  }
+  aside > div > p {
+    line-height: 1.5;
+    font-size: 20px;
+    margin: auto;
+    width: 90%;  
+      
+    padding: 5px;
+  }
+  .aside-3 {
+    
+    height: 100%;
+    order: 3;
+  }
+ 
+  
