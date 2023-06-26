@@ -37,12 +37,17 @@
     padding: 15px;
     flex: 0;
   }
-  a{
-    float: right;
-  text-decoration: none;
+ header > h1{
+  
+  float: right;
+  
   font-size: 20px;
   word-spacing: 50px;
-  margin-right: 50px;
+  margin-left: 50px;
+  
+  }
+  header>h1>a{
+    text-decoration: none;
   }
   .banner-flex-2{
         text-align: center;
