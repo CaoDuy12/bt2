@@ -119,14 +119,13 @@
   }
   
   .aside-2 { 
-    
+
     height: 100%;
     order: 2;
   }
   aside > div > p > img {
-    height: 90%;
-    width: 95%;
-    margin-right: 15px;   
+    height: 100%;
+    width: 97%;  
     padding: 10px;
   }
   aside > div{
