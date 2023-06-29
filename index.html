@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet " href="styles.css" />
+    <title>Best City Guide</title>
+    <link rel="icon" type="image/png" href="image/icong.ico" />
+
+    <link rel="stylesheet " href="style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="wrapper">
@@ -19,22 +25,41 @@
       </header> -->
 
       <header>
-        <h1 class="title">Best City Guide</h1>
+        <h1
+          class="title"
+          style="font-size: 30px; padding-left: 10px; color: rgb(46, 123, 123)"
+        >
+          <a href="index.html">Best City Guide</a> |<a
+            href="index.html"
+            style="
+              text-decoration: none;
+              font-size: 25px;
+              padding-left: 10px;
+              color: rgb(151, 214, 214);
+            "
+            >Home</a
+          >
+        </h1>
+
+        <div class="wrap">
+          <div class="search">
+            <input type="text" class="searchTerm" placeholder="Tìm kiếm..." />
+            <button type="submit" class="searchButton">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
         <div class="details">
-          <a href="#">Search</a>
-          <a href="#">About</a>
-          <a href="#">Food</a>
-          <a href="#">Tea</a>
+          <a href="index.html">Home</a>
+          <a href="news.html">News</a>
+          <a href="food.html">Food</a>
+          <a href="tour.html">Tour</a>
         </div>
       </header>
       <banner class="banner-flex-2">
         <br /><br /><br />
-        <img
-          class="nav__logo"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Ntp19XzZ6I2snJZmfsHEfQ-rH0K8htxc5p6fF5WFak2AsxzfllENoJgdCdgysORfgu0&usqp=CAU"
-          alt="Logo Nordic Coder"
-        />
-        <p style="font-size: 30px">Du Lịch Hà Nội</p>
+        <img class="nav__logo" src="image/logo.jfif" alt="Logo Nordic Coder" />
+        <p style="font-size: 40px">Du Lịch Hà Nội</p>
 
         <p style="font-size: 20px">
           Biến văn hóa ẩm thực Hà Nội thành sản phẩm du lịch đặc sắc
@@ -100,6 +125,11 @@
           </div>
         </aside>
       </div>
+      <footer>
+        <h1 class="facebook">
+          Edit by <a href="https://www.facebook.com/caoba.duy.77">Cao Duy</a>
+        </h1>
+      </footer>
     </div>
   </body>
 </html>

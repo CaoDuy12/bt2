@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+
+
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+  }
+  //wrapper>header>title/details/wrap>
+  .wrapper {
+    display: flex;
+    text-decoration: none; 
+    /* kich hoat flex box */
+    flex-flow: column;
+    font-weight: bold;
+    text-align: center;
+    height: 100%;
+    // justify-content: space-between;
+    //  * {
+    //   padding: 10px;
+    //   flex: 1 100%; 
+    //   /*cho tất cả phần tử bên trong có độ dài 100% và tỉ lệ chiếm không gian trống là như nhau*/
+    // }
+    header{
+      position: fixed ;
+      background-color: aliceblue;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 15px;
+      align-items: center;
+      width: 100%;
+
+      div {
+        a {
+        text-decoration: none;
+        font-size: 25px;
+        padding-left: 10px;
+        color: rgb(151, 214, 214);
+      }
+    }
+      .title{
+        text-decoration: none; 
+        font-size: 30px;
+        padding-left: 10px;
+        color: rgb(46, 123, 123);  
+
+        a {
+          text-decoration: none; 
+          font-size: 30px;
+          padding-left: 10px;
+          color: rgb(46, 123, 123);   
+        }
+        
+      }
+      .details {
+        display: flex;
+        gap:  80px ;
+        padding-right: 50px;
+        font-size: 20px;
+
+        a {
+          text-decoration: none;
+          color:rgb(58, 151, 151);
+        }
+      }
+      .wrap{
+        width: 30%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .search {
+          width: 95%;
+          position: relative;
+          display: flex;
+          justify-content: center;
+
+          .searchTerm {
+            width: 100%;
+            border: 3px solid #00B4CC;
+            border-right: none;
+            padding: 5px;
+            height: 20px;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+            color: #9DBFAF;
+          }
+          
+          .searchTerm:focus{
+            color: #00B4CC;
+          }
+          
+          .searchButton {
+            
+            width: 40px;
+            height: 36px;
+            border: 1px solid #00B4CC;
+            background: #00B4CC;
+            text-align: center;
+            color: #fff;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 15px;
+          }
+        }
+      
+      }
+      
+    }
+
+
+    .main {
+      
+      height: 100%;
+      flex: 3 0px; /* cho phần nội dung main ở giữa chiếm 3 phần không gian trống so với 2 phần aside bên cạnh */
+      order: 2;
+      p{
+        line-height: 1.5;
+        font-size: 20px;
+        margin: auto;
+        color: black;
+        font-weight: 100;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 90%;
+      }
+      img{
+        height: auto;
+        width: 55%;  
+        padding: 10px;
+        justify-content: center;
+        margin-left: 22%;
+      }
+    }
+    
+    .aside { flex: 1 0 0; position: fixed;} /* 2 phần aside sẽ chỉ chiếm 1 phần không gian */
+    
+    .aside-1 {
+      background: rgb(10, 225, 225);
+      height: 100%;
+      order: 1;div{
+        display: inline-block;
+        position: fixed;
+      margin-left: auto;
+      margin-right: auto;
+    }
+      
+    }
+    
+    .aside-3 {
+      background: rgb(10, 225, 225);
+      height: 100%;
+      order: 3;
+      position: fixed;
+    }
+
+
+    .banner-flex-2{
+      text-align: center;
+      background-color: rgb(10, 225, 225);
+      color: aliceblue;
+      padding: 40px;
+      flex: 2;
+      display: block;
+      img {
+        border-radius: 50%;
+        }
+      p{
+          line-height: 2.5;
+          }
+  }
+ 
+   footer{
+     background-color: rgb(10, 225, 225);
+     h1{
+  
+      justify-content: center;
+       flex: 0;
+       width: 100%;
+       height: 100%;
+       order: 1;
+      
+       color: azure;
+     }
+   }
+  }
+  
+
+
+  
+
